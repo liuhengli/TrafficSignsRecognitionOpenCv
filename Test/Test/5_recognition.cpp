@@ -301,6 +301,7 @@ int loadPCA(const string &file_name,cv::PCA& pca_)
     fs["e_values"] >> pca_.eigenvalues ;
     fs.release();
 
+	return 1;//NY
 }
 
 

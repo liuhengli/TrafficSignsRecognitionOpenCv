@@ -15,7 +15,7 @@ using namespace cv;
 #define IMG_NEW_DIM     40
 #define RESIZED_IMG_DIM     4800
 #define NUM_OF_CLASSES     13
-#define RAW_DATA_SET_4800  "dataset4800.txt"
+#define RAW_DATA_SET_4800  "dataset4800.txt"//加载数据
  
 /*              _______author_______
 
@@ -108,9 +108,7 @@ for(int i = 0; i < img.rows; i++)
 
 	pixelArray[k]= (int)bgr[2]; 
 
-	k++;
-
-	
+	k++;	
     }
 	
 }
